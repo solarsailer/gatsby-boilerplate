@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-boilerplate",
+  "version": "0.1.0",
+  "description": "Gatsby Boilerplate",
+  "license": "MIT",
+  "repository": "solarsailer/gatsby-boilerplate",
+  "author": {
+    "name": "Matthieu Oger",
+    "url": "solarsailer.net"
+  },
+  "keywords": [
+    "gatsby",
+    "boilerplate"
+  ],
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public",
+    "test": "standard | snazzy"
+  },
+  "dependencies": {
+    "gatsby": "^0.12.38",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "normalize.css": "^5.0.0",
+    "react-helmet": "^4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "snazzy": "^6.0.0",
+    "standard": "^9.0.1"
+  }
+}
